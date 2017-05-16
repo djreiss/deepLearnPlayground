@@ -1,5 +1,8 @@
 # My playground for dinking around with deep learning.
 
+* Notes:
+1. Keras documentation: http://keras.io/layers/core
+
 ### To set up running in parallel using intel re-compiled libs:
 
 1. install miniconda
