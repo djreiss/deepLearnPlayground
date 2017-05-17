@@ -17,3 +17,20 @@
 1. conda install matplotlib scikit-learn
 2. conda install -c anaconda tensorflow-gpu=1.1.0
 3. conda install -c anaconda keras-gpu=2.0.2
+
+
+### Run times for notebook #1 on GPU vs. multi-CPU:
+
+* GPU:
+```
+real	2m41.669s
+user	2m54.096s
+sys	0m12.324s
+```
+
+* CPU (16 cores):
+```
+real	11m14.149s
+user	149m24.364s
+sys	5m40.696s
+```
