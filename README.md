@@ -5,7 +5,7 @@
 
 ### To set up running using CPUs in parallel using intel re-compiled libs:
 
-1. install miniconda
+1. install [miniconda](https://conda.io/miniconda.html)
 2. setenv CONDA_ENVS_PATH $MINICONDA/envs
 3. conda config --add channels intel
 4. conda create -n intelpython3 intelpython3_full python=3
@@ -14,5 +14,6 @@
 
 ### Or to use GPU, replace 2-6 above with:
 
-1. conda install -c anaconda tensorflow-gpu=1.1.0
-2. conda install -c anaconda keras-gpu=2.0.2
+1. conda install matplotlib scikit-learn
+2. conda install -c anaconda tensorflow-gpu=1.1.0
+3. conda install -c anaconda keras-gpu=2.0.2
