@@ -3,7 +3,7 @@
 * Notes:
 1. Keras documentation: http://keras.io/layers/core
 
-### To set up running using CPUs in parallel using intel re-compiled libs:
+### To set up running using CPUs in parallel using intel optimized libs:
 
 1. install [miniconda](https://conda.io/miniconda.html)
 2. setenv CONDA_ENVS_PATH $MINICONDA/envs
@@ -18,16 +18,16 @@
 2. conda install -c anaconda tensorflow-gpu=1.1.0
 3. conda install -c anaconda keras-gpu=2.0.2
 
-### Run times for notebook #1 on GPU vs. multi-CPU:
+### Run times for notebook #1 (MNIST handwritten numbers) on GPU vs. multi-CPU:
 
-* GPU:
+- GPU:
 ```
 real	2m41.669s
 user	2m54.096s
 sys	0m12.324s
 ```
 
-* CPU (16 cores):
+- CPU (16 cores):
 ```
 real	11m14.149s
 user	149m24.364s
