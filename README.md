@@ -14,10 +14,9 @@
 
 ### Or to use GPU, replace 2-6 above with:
 
-1. conda install matplotlib scikit-learn
+1. conda install matplotlib pillow scikit-learn
 2. conda install -c anaconda tensorflow-gpu=1.1.0
 3. conda install -c anaconda keras-gpu=2.0.2
-
 
 ### Run times for notebook #1 on GPU vs. multi-CPU:
 
